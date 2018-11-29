@@ -1,8 +1,17 @@
-import React, { Component } from 'react'
-import { HeaderBar } from '../../components'
+import React, { Component, Fragment } from 'react'
+import { HeaderBar, LastestPost } from '../../components'
 
 export default class HomePage extends Component {
   render() {
-    return <HeaderBar />
+    return (
+      <Fragment>
+        <HeaderBar />
+        <br />
+        <section className="latest-posts">
+          <LastestPost />
+        </section>
+        <section className="">xxxx</section>
+      </Fragment>
+    )
   }
 }
