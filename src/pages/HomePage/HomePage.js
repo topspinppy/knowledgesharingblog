@@ -3,6 +3,9 @@ import { HeaderBar } from '../../components'
 
 export default class HomePage extends Component {
   render() {
-    return <HeaderBar />
+    return <div>
+      development
+      <HeaderBar />
+      </div><HeaderBar />
   }
 }
