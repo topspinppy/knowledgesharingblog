@@ -10,6 +10,7 @@ export default class HomePage extends Component {
         <section className="latest-posts">
           <LastestPost />
         </section>
+        <section className="">xxxx</section>
       </Fragment>
     )
   }
