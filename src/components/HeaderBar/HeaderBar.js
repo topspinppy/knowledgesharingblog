@@ -29,7 +29,7 @@ export default class HeaderBar extends Component {
       <Navbar color={this.state.color} light expand="md">
         <Container>
           <NavbarBrand href="/">
-            <img src={KS} width="150px" />
+            <img src={KS} width="160px" />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
