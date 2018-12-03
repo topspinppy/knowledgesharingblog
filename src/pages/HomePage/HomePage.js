@@ -1,16 +1,19 @@
 import React, { Component, Fragment } from 'react'
-import { HeaderBar, LastestPost } from '../../components'
+import { HeaderBar, LastestPost, Landing } from '../../components'
 
 export default class HomePage extends Component {
   render() {
     return (
       <Fragment>
         <HeaderBar />
+        {/* <section>
+          <Landing />
+        </section> */}
+        <br />
         <br />
         <section className="latest-posts">
-          <LastestPost />
+          <LastestPost header="Recent Article" />
         </section>
-        <section className="">xxxx</section>
       </Fragment>
     )
   }
